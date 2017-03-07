@@ -1,0 +1,21 @@
+$color_value: saturate(lighten(#333, 40%), 10%);
+input{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+    height: auto;
+    padding: 21px 23px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: $color_value;
+}

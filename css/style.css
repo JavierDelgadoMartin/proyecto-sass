@@ -1,0 +1,110 @@
+body {
+  background-color: #a38f8f;
+  color: #f9f9f9;
+  background-image: url("");
+  line-height: 1.5; }
+
+header {
+  -moz-border-radius: 4px 4px;
+  -webkit-border-radius: 4px 4px;
+  -khtml-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
+  width: 400px;
+  margin-left: 25%;
+  background-color: #DBDBDB; }
+  header h1 {
+    color: #333;
+    text-align: center;
+    padding: 2px 4px; }
+    header h1 em {
+      color: #7a0909; }
+
+section article {
+  -moz-border-radius: 4px 4px;
+  -webkit-border-radius: 4px 4px;
+  -khtml-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
+  width: 520px;
+  float: left;
+  color: #4f4f4f;
+  background-color: #7f7f7f; }
+  section article h1 {
+    color: #e0a934;
+    padding: 2px 1px;
+    margin: 2px 0; }
+  section article p {
+    padding: 8px 6px; }
+
+footer {
+  -moz-border-radius: 4px 4px;
+  -webkit-border-radius: 4px 4px;
+  -khtml-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
+  width: 500px;
+  height: 10px;
+  display: block;
+  bottom: 0px;
+  background-color: #DBDBDB;
+  text-align: center; }
+  footer span {
+    color: #333;
+    margin: 10px 20px;
+    padding: 10px 2px; }
+
+.proyecto {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin: 0;
+  padding: 10px; }
+.proyecto:last-child {
+  margin-right: 0; }
+
+.figura {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  height: 0;
+  display: block;
+  padding-bottom: 66.66667%; }
+
+.figura:hover .descripcion {
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 1; }
+
+.foto {
+  max-width: 100%;
+  width: 100%; }
+
+.descripcion {
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 8%;
+  background-color: rgba(183, 36, 38, 0.9);
+  opacity: 0;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out; }
+.descripcion h1 {
+  font-size: 1.33em;
+  margin: 0; }
+.descripcion p {
+  padding-top: 1em;
+  margin: 0; }
